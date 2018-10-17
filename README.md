@@ -44,21 +44,6 @@ curl -H "Content-Type: application/json" -X POST -d '{"name": "test1"}' http://l
 Update a exit json file
 curl -H "Content-Type: application/json" -X POST -d '{"name": "test1"}' http://localhost:3000/restaurants/1
 
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
-
 Debug
 -------
 If met problem of Migrations are pending. To resolve this issue
@@ -78,7 +63,9 @@ Features
 - Booking status & transaction history
 4. Users can book table in any restaurant in this system.
 
+
 Tech Used
+--------
 - Ruby on Rails 5.0
 - ERB Template for front-end
 - Postgresql
